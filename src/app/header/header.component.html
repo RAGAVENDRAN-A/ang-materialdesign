@@ -1,0 +1,16 @@
+<md-toolbar color="primary">
+  <img id="brandimg" src="./assets/images/brand.png">
+  <md-menu #appMenu="mdMenu">
+  <button md-menu-item> Settings </button>
+  <button md-menu-item> Help </button>
+</md-menu>
+<nav>
+  <button md-button  [mdMenuTriggerFor]="appMenu">
+    organization  <md-icon>more_vert</md-icon>
+  </button>
+  <a><button md-button>
+   Assemblies
+ </button></a>
+</nav>
+
+</md-toolbar>
